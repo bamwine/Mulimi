@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#90EE90">
+
+
+
+
+
+
+
+
+
+
+    <View
+        android:layout_height="1dip"
+        android:background="#CCCCCC"
+
+        android:id="@+id/view"
+        android:layout_width="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/ic_launcher"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/ColImgPath"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:text="Name of farmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_toRightOf="@+id/ColImgPath"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/farmerName"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:text="Technique description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/farmerName"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/ColImgPath"
+        android:id="@+id/techniqueDescription" />
+
+    <TextView
+        android:text="Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/techniqueDescription"
+        android:layout_toRightOf="@+id/ColImgPath"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/date" />
+
+    <TextView
+        android:text="Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_toRightOf="@+id/ColImgPath"
+        android:layout_toEndOf="@+id/ColImgPath"
+        android:id="@+id/location" />
+
+</RelativeLayout>

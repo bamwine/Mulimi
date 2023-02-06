@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/libs/apache-httpcomponents-httpcore.jar" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/libs/httpclient-4.2.3.jar" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/libs/volley.jar" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/Config.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/Config2.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/FarmersPage.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/FarmingTechniques.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/FileCache.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/GetFarmerDetails.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/ImageLoader.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/JSONfunctions.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/ListViewAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/Login.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/MainActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/MemoryCache.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/MyProducts.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/RequestHandler.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/SendEmail.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/SendSms.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/ShareTechnique.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/ShowAllProducts.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/SignUp.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/UpdateMyProduct.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/lubwama/mulimimobileapplication/Utils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/back_button.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/background.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/camera.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/edit_text_style.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/go.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/login_icon.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/mulimi_logo.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/photo_gallery.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/post.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/profil_pic.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/temp_img.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/video_gallery.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_column.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_column1.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_column2.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_column3.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/crop_products.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_fullimage_dialog.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_fullimage_dialog1.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/farmers_page.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/farming_techniques.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/get_farmer_details.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/listview_item.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/listview_main.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/log_in.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/my_products.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/product_in_cat.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/send_email.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/send_sms.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/show_all_products.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/sign_up.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/technique_sharing.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/update_my_product.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/view_all_products.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90EE90">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/mulimi_logo" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/profile_pic"
+        android:text="My full names"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/mfma"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+    <Button
+        android:id="@+id/update_product"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+        android:text="@string/upload"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/browse_image"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/product_image"
+        android:textSize="12sp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/log_out"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView11"
+        android:src="@drawable/profil_pic"
+        />
+
+    <TextView
+        android:id="@+id/my_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/quantity"
+        android:text="@string/my_products"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="13sp" />
+
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/unit_price"
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="13sp"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/quantity"
+        android:layout_alignParentLeft="true"
+        android:text="@string/quantity"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/quantity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/edit_text_style"
+        android:ellipsize="start"
+        android:ems="10"
+
+        android:hint=""
+        android:inputType="textMultiLine"
+
+        android:textSize="13sp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/description"
+        android:layout_alignParentLeft="true"
+        android:text="@string/product_description"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txtPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_toRightOf="@+id/browse_image"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/photo_gallery"
+        android:layout_above="@+id/browse_image"
+        android:layout_alignRight="@+id/browse_image"
+        android:layout_alignEnd="@+id/browse_image"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/unite_price"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="13sp"
+        android:layout_above="@+id/update_product"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/unit_price"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView8"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="13sp"
+        android:layout_above="@+id/update_product"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/my_image"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearSpinner1">
+
+        <Spinner
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_toStartOf="@+id/textView3"
+            android:id="@+id/spinner1"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advertise_product"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/linearSpinner1"
+        android:layout_alignEnd="@+id/txtPercentage" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/my_products"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/spinner2"
+
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

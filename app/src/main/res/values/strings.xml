@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_farmers_page">FarmersPage</string>
+    <string name="title_activity_my_products">MyProducts</string>
+    <string name="title_activity_update_my_product">UpdateMyProduct</string>
+
+    <string name="mfma">M.F.M.A</string>
+    <string name="advertise_product">Advertise Product</string>
+    <string name="view_products">View Products</string>
+    <string name="share_farming_technique">Share Farming Technique</string>
+    <string name="compose_query">Compose Farming Query</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Log in</string>
+    <string name="or">/</string>
+    <string name="full_names">Full names</string>
+    <string name="location">Location</string>
+    <string name="email">Email or Phone no.</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="no_account">Dont have account? </string>
+    <string name="my_email">Email Address</string>
+    <string name="log_out">Log out</string>
+    <string name="category">Category</string>
+    <string name="fruits">Fruits</string>
+    <string name="product_description">Product description</string>
+    <string name="quantity">Quantity in stock</string>
+    <string name="unite_price">Unit price (UGx)</string>
+    <string name="amount">Amount</string>
+    <string name="upload">Upload</string>
+    <string name="product_image">Browse product image</string>
+    <string name="my_products">My products</string>
+    <string name="product_name">Product</string>
+    <string name="share_technique">Share techinque</string>
+    <string name="view_techniques">View techniques</string>
+    <string name="browse_photo">Upload photo</string>
+    <string name="browse_video">Upload video</string>
+    <string name="post_technique">Post farming tehnique</string>
+    <string name="product_category">Product category</string>
+
+</resources>

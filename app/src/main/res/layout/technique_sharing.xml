@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90EE90"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/mulimi_logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/mfma"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/log_out"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:src="@drawable/profil_pic" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/profile_pic"
+        android:text="My full names"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:text="@string/share_technique"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <requestFocus />
+
+    <Button
+        android:id="@+id/post_technique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post_technique"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/browse_photo"
+        android:layout_alignStart="@+id/browse_photo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:onClick="post_technique"/>
+
+    <VideoView
+        android:id="@+id/video"
+        style="@drawable/video_gallery"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/browse_photo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/browse_video"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="38dp"
+        android:text="@string/browse_video"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/video"
+        android:layout_alignBottom="@+id/browse_photo"
+        android:textAllCaps="false"
+        android:layout_alignLeft="@+id/video"
+        android:layout_alignStart="@+id/video" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/photo_gallery"
+        android:layout_above="@+id/browse_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/browse_photo"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="38dp"
+        android:text="@string/browse_photo"
+        android:layout_marginBottom="13dp"
+        android:textAllCaps="false"
+        android:layout_above="@+id/post_technique"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:background="@drawable/edit_text_style"
+        android:ellipsize="start"
+        android:ems="10"
+        android:hint="Please describe your farming technique"
+        android:inputType="textMultiLine"
+        android:paddingTop="0dp"
+        android:textSize="13sp"
+        android:layout_above="@+id/video"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/view_techniques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_techniques"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

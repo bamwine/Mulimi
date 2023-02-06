@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+
+        android:background="#000000"
+        android:padding="1dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp">
+
+        <TextView
+            android:id="@+id/ranklabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crop category "
+
+
+            />
+
+        <TextView
+            android:id="@+id/crop_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/flag"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/countrylabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="Crop product " />
+
+        <TextView
+            android:id="@+id/crop_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/countrylabel" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:id="@+id/populationlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Unit price (UGX) " />
+
+        <TextView
+            android:id="@+id/unit_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/populationlabel" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="60dp"
+        >
+
+        <TextView
+            android:id="@+id/myprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Quantity " />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/myprice" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
